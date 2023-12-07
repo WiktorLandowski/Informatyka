@@ -9,13 +9,8 @@ int main(){
 	}
 
 cout << "W odwrotnej kolejnosci: " << endl;
-for(int i = 5; i < 5; i++){
-	if(liczby[i] % 2 == 0){
-		
-		cout << liczby[i] << " ";
+for(int i = 4; i >= 0; --i){
+	cout << liczby[i] << " ";
 	}
 			
 		}
-
-}
-	
